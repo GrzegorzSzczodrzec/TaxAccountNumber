@@ -32,3 +32,35 @@ Pomimo całej staranności przy tworzeniu programu twórcy nie gwarantują
 poprawnego działania. Twórcy programu nie ponoszą **żadnej**
 odpowiedzialności za skutki jego użycia.
 
+
+# Instalacja/uruchamianie
+
+Program jest prostym skryptem w języku python i uruchomienie nie powinno sprawić żadnych kłopotów. Jeśli jednak wszystkie sposoby zawiodą trzeba przeczytać dokumentację zawartą w poniższych akapitach.
+
+Niezbędna jest działająca w danym systemie instalacja języka Python w wersji 3.0 lub wyższej.
+
+Należy pobrać i zapisać plik `taxAccountGenerator.py`. Jest to zwykły plik tekstowy, który można przeglądać.
+
+## Linux
+
+Po przejściu do kartoteki w której jest zapisany `taxAccountGenerator.py` w terminalu należy wpisać
+```
+python taxAccountGenerator.py &
+```
+w niektórych dystrybucjach zamiast `python` trzeba wpisać `python3`. 
+
+## Windows - sposób 1.
+
+Należy uruchomić linię poleceń (cmd) i przejść do kartoteki, gdzie zapisany jest plik `taxAccountGenerator.py`. Następnie wpisać
+```
+python taxAccountGenerator.py
+```
+
+## Windows - sposób 2.
+
+Klikąć prawym przyciskiem myszy na ikonie pliku `taxAccountGenerator.py`.
+Z menu należy wybrać `Otwórz przy pomocy` i wpisać `python`
+Od tego momentu dwukrotne kliknięcie na ikonie pliku powinno uruchamiać program.
+
+
+
